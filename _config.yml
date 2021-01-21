@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
+title: "PENGLOG"
+description: "내 공간인 것임..."
 logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+teaser: keyboard-coffee-background.png
 locale: en
 url:
 feed:
@@ -33,9 +33,8 @@ owner:
     ad-client:
     ad-slot:
   bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
-
+  avatar:
+  disqus-shortname: noah-43-github-io
 
 include:
   - .htaccess
@@ -62,3 +61,12 @@ exclude:
   - package.json
   - spec
   - tmp
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      comments: true
