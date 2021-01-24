@@ -26,14 +26,14 @@ plugins:
 
 # Site owner
 owner:
-  name:
+  name: JIN
   email:
   twitter:
   google:
     ad-client:
     ad-slot:
   bio:
-  avatar:
+  avatar: bio-photo.jpg
   disqus-shortname: noah-43-github-io
 
 include:
@@ -70,3 +70,4 @@ defaults:
     values:
       layout: article
       comments: true
+      author: JIN
